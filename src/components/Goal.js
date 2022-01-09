@@ -22,7 +22,7 @@ function PureInProgressGoal({ title, points }) {
 function PureCompleteGoal({ title, points }) {
   return (
     <div className="p-2 md:w-1/4 ">
-      <div className="flex justify-between p-4 bg-gray-300 rounded-lg shadow-xs cursor-pointer ">
+      <div className="flex justify-between p-4 bg-gray-200 rounded-lg shadow-xs cursor-pointer ">
         <div>
           <p className=" text-sm font-medium ml-2 ">{title}</p>
         </div>
