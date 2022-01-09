@@ -24,8 +24,8 @@ Default.args = {
   },
 };
 
-export const Complete = Template.bind({});
-Complete.args = {
+export const CompleteGoal = Template.bind({});
+CompleteGoal.args = {
   goal: {
     ...Default.args.goal,
     state: GOAL_COMPLETE,
