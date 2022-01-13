@@ -1,7 +1,7 @@
 import React from "react";
 import moment from "moment";
 
-import { GOAL_COMPLETE, GOAL_IN_PROGRESS } from "../constants/goal";
+import { GOAL_IN_PROGRESS } from "../constants/goalStates";
 
 import Goal from "./Goal";
 
@@ -21,14 +21,5 @@ Default.args = {
     createdAt: moment("2021-12-31 13:45").toDate(),
     completedAt: null,
     points: 10,
-  },
-};
-
-export const CompleteGoal = Template.bind({});
-CompleteGoal.args = {
-  goal: {
-    ...Default.args.goal,
-    state: GOAL_COMPLETE,
-    completedAt: moment("2022-1-3 13:30").toDate(),
   },
 };
