@@ -2,7 +2,7 @@ import React from "react";
 
 function PureInProgressGoal({ title, points }) {
   return (
-    <div className="p-2 md:w-1/4 ">
+    <div className="md:w-1/4 ">
       <div className="flex justify-between p-4 shadow-xs cursor-pointer ">
         <div>
           <p className=" text-sm font-medium ml-2 ">{title}</p>
